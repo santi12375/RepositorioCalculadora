@@ -2,46 +2,46 @@ package modelo;
 
 public class Operaciones {
     
-    private int numeroUno;
-    private int numeroDos;
-    private float total;
+    private double numeroUno;
+    private double numeroDos;
+    private double total;
     
 
     public Operaciones() {
     }
 
-    public int getNumeroUno() {
+    public double getNumeroUno() {
         return numeroUno;
     }
 
-    public void setNumeroUno(int numeroUno) {
+    public void setNumeroUno(double numeroUno) {
         this.numeroUno = numeroUno;
     }
 
-    public int getNumeroDos() {
+    public double getNumeroDos() {
         return numeroDos;
     }
 
-    public void setNumeroDos(int numeroDos) {
+    public void setNumeroDos(double numeroDos) {
         this.numeroDos = numeroDos;
     }
     
-    public int sumar(){
+    public double sumar(){
         this.total=this.numeroUno+this.numeroDos;
-        return (int)this.total;
+        return (double)this.total;
     }
     
-    public int restar(){
+    public double restar(){
         this.total=this.numeroUno-this.numeroDos;
-        return (int)this.total;
+        return (double)this.total;
     }
     
-    public int multiplicar(){
+    public double multiplicar(){
         this.total=this.numeroUno*this.numeroDos;
-        return (int)this.total;
+        return (double)this.total;
     }
     
-    public float dividir(){
+    public double dividir(){
         if (numeroDos==0) {
             this.total=0;
         }else{
@@ -50,12 +50,8 @@ public class Operaciones {
         return this.total;
     }
 
-    public float getTotal() {
+    public double getTotal() {
         return total;
     }
-    
-    
-    
-    
     
 }

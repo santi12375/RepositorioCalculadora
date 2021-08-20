@@ -26,12 +26,13 @@ public class CtrOperaciones implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
          operaciones.setNumeroUno(
-                 Integer.parseInt(interfazOperaciones.txtNumeroUno.getText()));
+                 Double.parseDouble(interfazOperaciones.txtNumeroUno.getText()));
          operaciones.setNumeroDos(
-                 Integer.parseInt(interfazOperaciones.txtNumeroDos.getText()));
+                 Double.parseDouble(interfazOperaciones.txtNumeroDos.getText()));
+         
          if (interfazOperaciones.CBoperacion.getSelectedIndex()==0) {
             operaciones.sumar();
-        }
+         }
          else if(interfazOperaciones.CBoperacion.getSelectedIndex()==1){
              operaciones.restar();
          }
