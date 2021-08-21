@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import modelo.Operaciones;
 import vista.IguOperaciones;
+import java.lang.String; 
 
 public class CtrOperaciones implements ActionListener{
 
