@@ -1,6 +1,4 @@
 package controlador;
-import java.util.ArrayList;
-//import java.lang.String; 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import modelo.Operaciones;

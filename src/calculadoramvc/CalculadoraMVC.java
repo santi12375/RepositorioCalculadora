@@ -12,8 +12,7 @@ public class CalculadoraMVC {
         Operaciones operaciones = new Operaciones();
         IguOperaciones interfazOperaciones = new IguOperaciones();
         CtrOperaciones ctrOperaciones = 
-                new CtrOperaciones(interfazOperaciones, operaciones);
-System.out.println("Esto es contenido mal identado");        
+                new CtrOperaciones(interfazOperaciones, operaciones);   
         ctrOperaciones.inicializarVista();
         
         interfazOperaciones.setVisible(true);
