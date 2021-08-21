@@ -1,5 +1,6 @@
 package modelo;
-import java.lang.String; 
+
+
 public class Operaciones {
     
     private double numeroUno;
