@@ -13,7 +13,7 @@ public class CalculadoraMVC {
         IguOperaciones interfazOperaciones = new IguOperaciones();
         CtrOperaciones ctrOperaciones = 
                 new CtrOperaciones(interfazOperaciones, operaciones);
-        
+System.out.println("Esto es contenido mal identado");        
         ctrOperaciones.inicializarVista();
         
         interfazOperaciones.setVisible(true);
