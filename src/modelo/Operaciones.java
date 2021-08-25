@@ -8,6 +8,7 @@ public class Operaciones {
     
 
     public Operaciones() {
+        //Constructor de operaciones
     }
 
     public double getNumeroUno() {
