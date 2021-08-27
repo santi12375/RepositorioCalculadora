@@ -30,7 +30,7 @@ public class Operaciones {
     public double sumar(){
         this.total=this.numeroUno+this.numeroDos;
         return (double)this.total;
-    }
+    }}
     
     public double restar(){
         this.total=this.numeroUno-this.numeroDos;
