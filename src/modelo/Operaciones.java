@@ -29,17 +29,17 @@ public class Operaciones {
     
     public double sumar(){
         this.total=this.numeroUno+this.numeroDos;
-        return (double)this.total;
+        return this.total;
     }
     
     public double restar(){
         this.total=this.numeroUno-this.numeroDos;
-        return (double)this.total;
+        return this.total;
     }
     
     public double multiplicar(){
         this.total=this.numeroUno*this.numeroDos;
-        return (double)this.total;
+        return this.total;
     }
     
     public double dividir(){
